@@ -1,5 +1,7 @@
 package testmod
-import "fmt"
-func SayHello(name string) string {
-   return fmt.Sprintf("Hello, %s", name)
+import (
+		"fmt"
+       )
+func SayHello(name, str string) string {
+	return fmt.Sprintf("Hi, %s, %s", name, str)
 }
